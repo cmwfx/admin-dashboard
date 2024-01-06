@@ -300,3 +300,61 @@ svg {
 	font-weight: bold;
 	font-size: 20px;
 }
+.announcements {
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	border-radius: 25px;
+	padding: 20px;
+}
+.announcements-heading {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.announcement h3 {
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.announcement p {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid grey;
+}
+.trending {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 25px;
+	padding: 20px;
+}
+.trending-heading {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.trending img {
+	width: 100%;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.image-container {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	padding-right: 10px;
+}
+.profile {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+}
+.profile h3 {
+	font-weight: bold;
+	font-size: 15px;
+}
